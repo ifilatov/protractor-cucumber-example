@@ -4,7 +4,7 @@
   "description": "Protractor+CucumberJS testing framework",
   "repository": {
     "type:": "git",
-    "url": "https://github.com/fuze/hub-e2e-automation"
+    "url": "https://github.com/ifilatov/protractor-cucumber-example"
   },
   "main": "index.js",
   "scripts": {
