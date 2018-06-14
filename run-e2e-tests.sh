@@ -1,0 +1,1 @@
+docker run --privileged --rm --shm-size 2g -e SCREEN_RES=1900x2400x24 -v $(pwd):/protractor ifilatov/protractor-cucumber configs/dockerized.sanity.conf.js

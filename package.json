@@ -1,0 +1,27 @@
+{
+  "name": "protractor-automation",
+  "version": "1.0.0",
+  "description": "Protractor+CucumberJS testing framework",
+  "repository": {
+    "type:": "git",
+    "url": "https://github.com/fuze/hub-e2e-automation"
+  },
+  "main": "index.js",
+  "scripts": {
+    "install": "npm prune && webdriver-manager update && mkdir -p reports/screenshots",
+    "sanity": "protractor configs/sanity.conf.js"
+  },
+  "author": "ijfilatov@gmail.com",
+  "devDependencies": {
+    "axios": "^0.17.1",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^3.1.0",
+    "cucumber-html-reporter": "^3.0.4",
+    "fast-csv": "^2.4.1",
+    "fs": "0.0.1-security",
+    "protractor": "^5.2.0",
+    "protractor-cucumber-framework": "^4.1.1"
+  },
+  "dependencies": {}
+}
