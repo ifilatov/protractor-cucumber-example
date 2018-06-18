@@ -18,7 +18,8 @@ exports.config = {
             }
         }
     },
-
+    
+    ignoreUncaughtExceptions: true,
     getPageTimeout: 10000,
     allScriptsTimeout: 120000,
 
