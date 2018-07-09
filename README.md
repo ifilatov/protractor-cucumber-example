@@ -31,7 +31,7 @@ report (single or consolidated, depends on config) is generated automatically af
 
 ### Example: run tests on DOCKER via protractor config
 
-* `docker run --privileged --rm --shm-size 2g -e SCREEN_RES=1900x2400x24 -v $(pwd):/protractor ifilatov/protractor-cucumber configs/dockerized.sanity.conf.js`
+* `docker run --privileged --rm --shm-size 2g -e SCREEN_RES=1600x900x24 -v $(pwd):/protractor ifilatov/protractor-cucumber configs/dockerized.sanity.conf.js`
 
 # Updating Docker image
 

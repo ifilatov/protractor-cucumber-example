@@ -42,8 +42,7 @@ exports.config = {
     params: {
         // Params for setting browser window width and height - can be also
         // changed via the command line as: --params.browserConfig.width 1024
-        baseUrl: 'https://text.ui.com/',
-        apiBaseUrl: 'https://test.api.com/api/',
+        hubBaseUrl: 'https://hub.qa.thinkingphones.com/',
 
         browserConfig: {
             width: 1900,
