@@ -1,6 +1,6 @@
 exports.config = {
 
-    seleniumServerJar: '/protractor/node_modules/protractor/node_modules/webdriver-manager/selenium/selenium-server-standalone-3.12.0.jar',
+    seleniumServerJar: '/protractor/node_modules/protractor/node_modules/webdriver-manager/selenium/selenium-server-standalone-3.13.0.jar',
 
     capabilities: {
         browserName: 'chrome',
@@ -19,6 +19,7 @@ exports.config = {
         }
     },
 
+    ignoreUncaughtExceptions: true,
     getPageTimeout: 10000,
     allScriptsTimeout: 120000,
 

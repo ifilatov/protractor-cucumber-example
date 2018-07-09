@@ -9,4 +9,4 @@ useradd -m -o -u $uid -g $gid protractor
 # Therefore, we need to run it as a regular user, taking care
 # to set the uid and gid of that user to match those of the current directory owner.
 # Otherwise protractor could experience problems reading files from the current directory.
-npm install && sudo -u protractor xvfb-run --server-args="-screen 0 ${SCREEN_RES}" -a node_modules/protractor/bin/protractor $@
+npm install && webdriver-manager update && sudo -u protractor xvfb-run --server-args="-screen 0 ${SCREEN_RES}" -a node_modules/protractor/bin/protractor $@

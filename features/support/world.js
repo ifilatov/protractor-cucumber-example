@@ -7,12 +7,11 @@ class CustomWorld {
         this.attach = attach;
 
         this.pages = {
-            dashboardPage: require('../page_objects/dashboard.page'),
+            angularPage: require('../page_objects/angularjs.page')
         };
 
         this.data = {
-            user: require('../data/users/user.data'),
-            customer: require('../data/customers/customer.data')
+            user: require('../data/users/user.data')
         };
 
     }
